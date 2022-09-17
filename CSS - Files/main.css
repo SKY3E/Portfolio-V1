@@ -3,6 +3,8 @@ body{
   background-color: rgb(52, 73, 133);
 
   height: 1800px;
+  
+  font-size: 18px;
 }
 
 .nav-bar-main{
@@ -81,6 +83,28 @@ body{
 
 .header-main{
   margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+}
+
+.header-main-div{
+  border-radius: 4px;
+  width: 90%;
+  background-color: aliceblue;
+  margin: auto;
+  padding: 20px
+}
+
+.header-main-presentation{
+  font-family: Poppins;
+}
+
+.header-main-presentation-name-intro{
+  color: rgb(52, 73, 133);
+}
+
+.header-main-presentation-name{
+  color: rgb(45, 70, 139);
+
+  font-family: Bebas Neue;
+  font-size: 30px;
+  font-weight: bold;
 }
