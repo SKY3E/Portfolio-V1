@@ -108,3 +108,10 @@ body{
   font-size: 30px;
   font-weight: bold;
 }
+
+.header-main-presentation-name-outro{
+  margin-top: 10px;
+  
+  color: rgb(52, 73, 133);
+  width: 50%;
+}
