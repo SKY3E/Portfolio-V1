@@ -170,6 +170,42 @@ body{
   font-weight: 100;
 }
 
+/* Credit Section */
+.header-main-credits{
+  font-family: Bebas Neue;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(45, 70, 139);
+}
+
+.header-main-credits-desc{
+  color: rgb(52, 73, 133);
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/* Project Section */
+.header-main-project-item{
+  font-family: Bebas Neue;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(45, 70, 139);
+}
+
+.header-main-project-desc{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+
+  color: rgb(52, 73, 133);
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 100;
+}
+
 /* Footer Section */
 .footer-main{
   background-color: aliceblue;
