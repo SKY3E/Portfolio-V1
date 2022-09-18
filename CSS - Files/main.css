@@ -1,9 +1,8 @@
 /* Body Section */
 body{
   margin: 0;
-  background-color: rgb(52, 73, 133);
 
-  height: 1800px;
+  background-color: rgb(52, 73, 133);
   
   font-size: 18px;
 }
@@ -126,7 +125,7 @@ body{
   font-family: Bebas Neue;
   font-size: 30px;
   font-weight: bold;
-  color: rgb(52, 73, 133);
+  color: rgb(45, 70, 139);
 }
 
 .header-main-skills-items{
@@ -149,4 +148,77 @@ body{
   padding: 6px;
   margin-right: 4px;
   margin-top: 10px;
+}
+
+.skill-item:hover{
+  box-shadow: 0px 2px 8px rgb(46, 54, 61);
+}
+
+/* Working on Section */
+.header-main-work{
+  font-family: Bebas Neue;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(45, 70, 139);
+}
+
+.header-main-work-desc{
+  color: rgb(52, 73, 133);
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/* Footer Section */
+.footer-main{
+  background-color: aliceblue;
+}
+
+.footer-main-div{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link{
+  text-decoration: none;
+
+  color: rgb(52, 73, 133);
+  font-size: 24px;
+  font-family: Bebas Neue;
+  background-image: linear-gradient(rgb(52, 73, 133), rgb(52, 73, 133));
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active {
+  background-size: 100% 0.1em;
+  cursor: pointer;
+}
+
+.footer-copyright{
+  color: rgb(88, 109, 168);
+  font-size: 20px;
+  font-family: Bebas Neue;
+}
+
+.footer-right{
+  padding-top: 10px;
+
+  display: flex;
+}
+
+.footer-social-links{
+  margin-left: 10px;
 }
