@@ -187,6 +187,16 @@ body{
 }
 
 /* Project Section */
+.header-main-project-div{
+  border-radius: 4px;
+  width: 90%;
+  background-color: aliceblue;
+  
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px
+}
+
 .header-main-project-item{
   font-family: Bebas Neue;
   font-size: 30px;
@@ -204,6 +214,15 @@ body{
   font-family: Poppins;
   font-size: 18px;
   font-weight: 100;
+}
+
+.project-desc-img-div{
+  padding-right: 20px;
+}
+
+.project-desc-img{
+  border: 2px solid rgb(52, 73, 133);
+  border-radius: 4px;
 }
 
 /* Footer Section */
