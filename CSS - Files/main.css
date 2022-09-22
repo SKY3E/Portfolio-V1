@@ -225,6 +225,17 @@ body{
   border-radius: 4px;
 }
 
+.project-desc-git{
+  font-size: 20px; 
+  font-family: Bebas Neue; 
+  text-decoration: none; 
+  color: rgb(52, 73, 133);
+}
+
+.project-desc-git:hover{
+  text-decoration: underline;
+}
+
 /* Footer Section */
 .footer-main{
   background-color: aliceblue;
